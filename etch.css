@@ -1,0 +1,58 @@
+html{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(10, 0, 0, 0.283);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex: auto;
+    text-align: center;
+}
+.sketchpad{
+    margin: 2px;
+    border: solid 1px yellow;
+    padding: 3px;
+    background-color: rgba(158, 14, 220, 0.283);
+}
+h4{
+    max-height: 40px;
+    font-family:OCR A Std, monospace;
+    color: rgb(2, 5, 63);
+    
+}
+
+.container{
+
+    display: grid;
+    background-color:antiquewhite;
+    border: solid 2px rgb(166, 108, 8);
+    margin: 3px;
+    width: 500px;
+    height: 300px;  
+}
+
+.minisquares{
+    background-color: aqua;
+    border: solid 1px black;
+}
+.optionsbtn{
+    margin: 2px;
+    padding: 3px;
+    border: 2px;
+    
+}
+.btns{
+    
+    color: whitesmoke;
+    background-color: rgb(2, 6, 91);
+    border: solid 1px gold;
+    border-radius: 10px;
+    font-family: Apple Chancery, cursive;
+    transition: 0.5s;
+    
+
+}
+.btns:hover{
+    background-color: rgb(102, 0, 128);
+    transform: scale(1.1);
+}
