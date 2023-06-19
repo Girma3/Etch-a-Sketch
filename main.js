@@ -1,6 +1,6 @@
 // function to make grid layout 
-//function makegrid(gridNumber){
-   //let gridNumber = Number(prompt("enter: "));
+function makegrid(gridNumber){
+   
    for (let i = 0; i < gridNumber * gridNumber; i++){
 
             //grid parent with row and columns number to be set by user
@@ -13,5 +13,4 @@
                     miniSquares.setAttribute("class", "minisquares");
                     bigSquare.appendChild(miniSquares);
     }
-
-//}
+}
