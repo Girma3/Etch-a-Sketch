@@ -52,5 +52,20 @@ function makeGrid(gridNumber){
 //default grid size
 makeGrid(16);
 
+ //function to resize the grid between 1 -99 as user chooses
+ function resize(){
+    let userGridNumber=Number(prompt("Enter a number between 16 and 99: "));
+    
+    if (userGridNumber < 16){
+        alert("please ,enter a number that is greater than 16.")
+    }
+    else if(userGridNumber > 99){
+        alert("Please ,enter a number that is less than 99.")
+    }
+    else {
+        makeGrid(userGridNumber);
+    }
+ }
+
  
 
