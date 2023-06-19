@@ -42,17 +42,16 @@ h4{
     
 }
 .btns{
-    
     color: whitesmoke;
     background-color: rgb(2, 6, 91);
-    border: solid 1px gold;
+    border: solid 1px black;
     border-radius: 10px;
-    font-family: Apple Chancery, cursive;
+    font-family: OCR A Std, monospace;
     transition: 0.5s;
-    
-
 }
+
 .btns:hover{
     background-color: rgb(102, 0, 128);
+    border: solid 2px gold;
     transform: scale(1.1);
 }
